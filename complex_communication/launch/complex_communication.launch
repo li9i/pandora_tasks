@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="complex_communication" name="player" type="player" output="screen"/>
+    <node pkg="complex_communication" name="server" type="server" output="screen"/>
+</launch>
+
+<!-- output="screen" -->

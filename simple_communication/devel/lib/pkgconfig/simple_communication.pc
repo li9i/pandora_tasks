@@ -1,0 +1,8 @@
+prefix=/home/alek/catkin_ws/src/simple_communication/devel
+
+Name: simple_communication
+Description: Description of simple_communication
+Version: 0.0.0
+Cflags: -I/home/alek/catkin_ws/src/simple_communication/devel/include
+Libs: -L/home/alek/catkin_ws/src/simple_communication/devel/lib 
+Requires: roscpp std_msgs message_runtime

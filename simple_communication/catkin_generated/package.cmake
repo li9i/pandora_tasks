@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "simple_communication")
+set(simple_communication_MAINTAINER "Alexandros Filotheou <alexandros.filotheou@gmail.com>")
+set(simple_communication_DEPRECATED "")
+set(simple_communication_VERSION "0.0.0")
+set(simple_communication_BUILD_DEPENDS "roscpp" "std_msgs" "message_generation")
+set(simple_communication_RUN_DEPENDS "roscpp" "std_msgs" "message_runtime")
+set(simple_communication_BUILDTOOL_DEPENDS "catkin")

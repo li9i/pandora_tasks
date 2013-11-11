@@ -1,0 +1,11 @@
+<launch>
+
+  <group ns="streamer">
+    <node pkg="simple_communication" name="sim" type="streamer"/>
+  </group>
+  
+    <group ns="manipulator">
+    <node pkg="simple_communication" name="sim" type="manipulator"/>
+  </group>
+
+</launch>

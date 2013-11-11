@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/alek/catkin_ws/src/simple_communication/devel/setup.sh

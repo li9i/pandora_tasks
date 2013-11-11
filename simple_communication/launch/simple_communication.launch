@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="simple_communication" name="streamer" type="streamer"/>
+    <node pkg="simple_communication" name="manipulator" type="manipulator" output="screen"/>
+</launch>

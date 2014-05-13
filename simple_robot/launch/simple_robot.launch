@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="simple_robot" name="robot_pose_server_node"  type="robot_pose_server_node" output="screen"/>
+    <node pkg="simple_robot" name="victim_announce_node"    type="victim_announce_node"   output="screen"/>
+    <node pkg="simple_robot" name="data_fusion_node"        type="data_fusion_node"       output="screen"/>
+    <node pkg="simple_robot" name="temperature_node"        type="temperature_node"       output="screen"/>
+</launch>
+
+<!-- output="screen" -->

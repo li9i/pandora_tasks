@@ -1,0 +1,9 @@
+#goal definition
+int8[9] board_array
+---
+#result definition
+int8 x
+---
+#feedback
+int8 x
+

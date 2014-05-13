@@ -170,4 +170,3 @@ add_dependencies(server complex_communication_generate_messages_cpp)
 add_executable(player src/player.cpp)
 target_link_libraries(player ${catkin_LIBRARIES})
 add_dependencies(player complex_communication_generate_messages_cpp)
-
